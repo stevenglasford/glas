@@ -1,4 +1,4 @@
-;Sliced by ideaMaker 4.3.2.6470, 2023-04-06 13:52:43 UTC-0500
+;Sliced by ideaMaker 4.3.2.6470, 2023-04-06 13:55:52 UTC-0500
 ;Dimension: 200.000 9999.000 170.000 0.800
 ;Plate Shape: 0
 ;Origin Center: 0
@@ -394,15 +394,15 @@
 M92 E305.00000
 M221 T0 S100.00
 M140 S60.00
-M104 T0 S200.00
-M109 T0 S200.00
+M104 T0 S190.00
+M109 T0 S190.00
 T0
 M190 S60.00
 G90 ; Set to Absolute Positioning
 M82 ; Set extruder to absolute mode
 G21 ; Metric values
 ;M808 L ; This is your looping code, any number after the L is the number of repeats, leave blank for infinite loops
-M104 T0 S200 ; For some reason ideamaker forces the nozzle to cooldown when the command isnt even in the endgcode, this turns it straight back on after the loop, 245 is the degrees in this case
+M104 T0 S190 ; For some reason ideamaker forces the nozzle to cooldown when the command isnt even in the endgcode, this turns it straight back on after the loop, 245 is the degrees in this case
 G28; Home
 G92 X0 Y0 Z0 E0 ; zero out all axes (include extruder)
 M83 ; set extruder to relative coordinates
@@ -6116,8 +6116,8 @@ M84
 ;M92 E305.00000
 ;M221 T0 S100.00
 ;M140 S60.00
-;M104 T0 S200.00
-;M109 T0 S200.00
+;M104 T0 S190.00
+;M109 T0 S190.00
 ;T0
 ;M190 S60.00
 ;G21
