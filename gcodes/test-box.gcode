@@ -1,4 +1,4 @@
-;Sliced by ideaMaker 4.3.2.6470, 2023-04-06 14:29:49 UTC-0500
+;Sliced by ideaMaker 4.3.2.6470, 2023-04-06 14:54:44 UTC-0500
 ;Dimension: 200.000 9999.000 170.000 0.800
 ;Plate Shape: 0
 ;Origin Center: 0
@@ -393,11 +393,11 @@
 ;
 M92 E325.00000
 M221 T0 S100.00
-M140 S60.00
+M140 S75.00
 M104 T0 S210.00
 M109 T0 S210.00
 T0
-M190 S60.00
+M190 S75.00
 G90 ; Set to Absolute Positioning
 M82 ; Set extruder to absolute mode
 G21 ; Metric values
@@ -7548,11 +7548,11 @@ M84
 ;G92 X0 Y0 Z{z}
 ;M92 E325.00000
 ;M221 T0 S100.00
-;M140 S60.00
+;M140 S75.00
 ;M104 T0 S210.00
 ;M109 T0 S210.00
 ;T0
-;M190 S60.00
+;M190 S75.00
 ;G21
 ;G90
 ;M82
