@@ -1,4 +1,4 @@
-;Sliced by ideaMaker 4.3.2.6470, 2023-04-07 09:24:22 UTC-0500
+;Sliced by ideaMaker 4.3.2.6470, 2023-04-07 09:53:19 UTC-0500
 ;Dimension: 200.000 9999.000 170.000 0.800
 ;Plate Shape: 0
 ;Origin Center: 0
@@ -7532,7 +7532,7 @@ M104 T0 S0
 ;M808 ;this is the loop command in the endgcode which tells the printer to do everything again from the same code in the startgcode
 G1 X0 Y100
 M109 R100
-M104 S0
+M104 S210 ;The Temperature for the nozzle needs to remain basically constant temperature
 M140 S0
 ;Retract the filament
 G92 E1
