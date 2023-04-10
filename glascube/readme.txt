@@ -12,11 +12,13 @@ have dimensions in intervals of 13.
 Glascube has 3 sides of information, it is smooth on the outside, and all
 information is stored within the structure of the cube.
 
-The top can be identified by a marking for glasford.io/glascube which is both
-informational in that it identifies that glasford.io created the cube, and
-it also contains the product name. When scanned with a typical phone or
+The top (z)  can be identified by a marking for glasford.io/glascube which is
+both informational in that it identifies that glasford.io created the cube,
+and it also contains the product name. When scanned with a typical phone or
 anything it also brings the user to the website that allows a person to buy
 their own glascube. 
 
 Please notice that glascube is spelt with undercase, unless it is at the
-start of a sentance. This is also true of glasford.io
+start of a sentance. This is also true of glasford.io.
+
+
