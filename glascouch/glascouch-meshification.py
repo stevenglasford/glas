@@ -25,6 +25,7 @@ gmsh.model.geo.synchronize()
 gmsh.option.setNumber("Mesh.Algorithm", 6)
 gmsh.option.setNumber("Mesh.MeshSizeMin", 7)
 gmsh.option.setNumber("Mesh.MeshSizeMax", 7)
+gmsh.option.setNumber("Mesh.CharacteristicLengthMax", 7)
 
 
 gmsh.model.mesh.generate()
