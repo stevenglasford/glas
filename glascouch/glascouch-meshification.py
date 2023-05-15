@@ -14,8 +14,6 @@ def createGeometryAndMesh():
 
 createGeometryAndMesh()
 
-gmsh.model.add('couch.stl')
-
 gmsh.model.geo.synchronize()
 
 #Set the resolution of the mesh
