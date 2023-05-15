@@ -10,7 +10,7 @@ gmsh.initialize(sys.argv)
 def createGeometryAndMesh():
     gmsh.clear()
     path = os.path.dirname(os.path.abspath(__file__))
-    gmsh.merge(os.path.join(path, os.pardir, 'couch.stl'))
+    gmsh.merge(os.path.join('couch.stl'))
 
 createGeometryAndMesh()
 
