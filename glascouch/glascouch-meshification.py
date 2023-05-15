@@ -17,7 +17,7 @@ createGeometryAndMesh()
 gmsh.model.geo.synchronize()
 
 #Set the resolution of the mesh
-gmsh.model.mesh.field.add("Threshold", 1)
+gmsh.model.mesh.field.add("Threshold", 2)
 gmsh.model.mesh.field.setNumber(2, "SizeMin", 7 / 30)
 gmsh.model.mesh.field.setNumber(2, "SizeMax", 7)
 gmsh.model.mesh.field.setNumber(2, "DistMin", .15)
