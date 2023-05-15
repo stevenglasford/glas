@@ -1,7 +1,10 @@
+#basically copied from https://stackoverflow.com/questions/75572698/how-to-load-and-inspect-a-gmsh-mesh-msh-file
+# https://stackoverflow.com/a/75665619
+
 import pygmsh
 import meshio
 
-mesh = meshio.read("file.msh")
+mesh = meshio.read("couch.msh")
 geom = pygmsh.built_in.Geometry()
 
 # Define the nodes
