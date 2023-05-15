@@ -30,7 +30,4 @@ gmsh.model.mesh.generate()
 
 gmsh.write("couch.msh")
 
-if 'close' not in sys.argv:
-    gmsh.fltk.run()
-
 gmsh.finalize()
