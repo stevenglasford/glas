@@ -18,8 +18,8 @@ gmsh.model.geo.synchronize()
 
 #Set the resolution of the mesh
 gmsh.model.mesh.field.add("Threshold", 2)
-gmsh.model.mesh.field.setNumber(2, "SizeMin", 7 / 30)
-gmsh.model.mesh.field.setNumber(2, "SizeMax", 7)
+gmsh.model.mesh.field.setNumber(2, "SizeMin", .07 / 30)
+gmsh.model.mesh.field.setNumber(2, "SizeMax", .07)
 gmsh.model.mesh.field.setNumber(2, "DistMin", .15)
 gmsh.model.mesh.field.setNumber(2, "DistMax", .5)
 
