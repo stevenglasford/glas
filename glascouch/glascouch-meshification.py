@@ -22,6 +22,7 @@ gmsh.model.geo.synchronize()
 # gmsh.model.mesh.field.setNumber(2, "SizeMax", .07)
 # gmsh.model.mesh.field.setNumber(2, "DistMin", .15)
 # gmsh.model.mesh.field.setNumber(2, "DistMax", .5)
+gmsh.option.setNumber("Mesh.Algorithm", 6)
 gmsh.option.setNumber("Mesh.MeshSizeMin", 7)
 gmsh.option.setNumber("Mesh.MeshSizeMax", 7)
 
